@@ -1,0 +1,75 @@
+/* Changes color for background and first few lines of words*/
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+h2{
+    color: #000000;
+    margin-left: 2rem;
+}
+
+h3{
+    color: rgb(120, 120, 220);
+    margin-left: 1.5cm;
+}
+
+strong{
+    color: hsl(208, 100%, 16%);
+    margin-left: 3%;
+}
+
+/* Add box to the attendance list*/
+.attList {
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 4em;
+
+    padding: 7px;
+    border: 0.02in solid blue;
+}
+
+.newBusiness {
+    margin: 10px;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 2em;
+
+    /* border: 0.02in solid red; */
+
+    /* FIXME: How to make right border closer */
+    border-right: 5px;
+    border-top: 5px;   
+    border-bottom: 5px;
+    border-right: 5px;
+    border-style: solid;
+    border-color: red;
+}
+
+/* Adding boxes to elements */
+/* p, 
+ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+} */
+
+/* .attList, {
+  border: 0.02in solid blue;
+  padding: .5em;
+} */
+
+/* ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}  */
