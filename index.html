@@ -70,6 +70,7 @@
         </div>
 
         <fieldset>
+            <div class = teamNames>
             <legend>Team Names</legend>
             <p>Click on the name you like!</p>
             <p><label><input type=radio name=c value=0 checked> Debuggers</label>
@@ -82,8 +83,10 @@
             <button type=button>
                 Submit
             </button>
+        </div>
         </fieldset>
         
+        <div class = meetingDay>
         <label>
             Select your prefered day of meeting:
             <input name=day list=days>
@@ -95,7 +98,9 @@
                 <option value="Friday">
             </datalist>
         </label>
+        </div>
 
+        <div class = meetingTime>
         <p>
             <label for="time">Select your preferred meeting time:</label>
             <select id="time" name="time">
@@ -105,6 +110,7 @@
              <option value="4"> Night after 6pm </option>
             </select>
         </p>
+        </div>
 
         <button type=button>
             Submit
@@ -128,7 +134,10 @@
 
 
     <footer>
+        <div class = textBox>
         <textarea>If you have anything to say, put them here!</textarea>
+        </div>
+        
         <b>Thank you!</b>
         <form action="https://www.google.com/search" method="get">
             <label>Google: <input type="search" name="q"></label> <input type="submit" value="Search...">
