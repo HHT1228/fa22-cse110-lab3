@@ -5,32 +5,36 @@ body {
 
 h1 {
     color: navy;
-    margin-left: 20px;
+    text-align: center;
+    border-radius: 3in;
+    border-style: solid;
+    margin: auto;
 }
 
 h2{
     color: #000000;
-    margin-left: 2rem;
+    text-align: center;
+    text-decoration: underline;
 }
 
 h3{
     color: rgb(120, 120, 220);
-    margin-left: 1.5cm;
+    text-align: center;
 }
 
 strong{
     color: hsl(208, 100%, 16%);
-    margin-left: 3%;
+    margin-left: 0.6in;
 }
 
 /* Add box to the attendance list*/
 .attList {
     margin-top: 40px;
-    margin-right: 30px;
-    margin-bottom: 40px;
+    margin-right: 3cm;
+    margin-bottom: 2rem;
     margin-left: 4em;
 
-    padding: 7px;
+    padding: 1%;
     border: 0.02in solid blue;
 }
 
@@ -53,23 +57,13 @@ strong{
     border-color: red;
 }
 
-/* Adding boxes to elements */
-/* p, 
-ul {
-  border: 2px solid rebeccapurple;
-  padding: .5em;
-} */
-
-/* .attList, {
-  border: 0.02in solid blue;
-  padding: .5em;
-} */
-
-/* ul {
-  display: flex;
-  list-style: none;
+.teamNames{
+  height: 230px;
+  width: 230px;
 }
 
-.block {
-  display: block;
-}  */
+.textBox{
+  height: 150px;
+  max-width: 300px;
+  min-width: 100px;
+}
